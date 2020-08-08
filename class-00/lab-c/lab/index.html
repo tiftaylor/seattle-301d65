@@ -5,19 +5,22 @@
   <meta charset="utf-8">
   <title>Choco Pizza</title>
   <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
+
 </head>
 
 <body>
   <header>
     <nav>
-      <a href="#" id="logo">
+      <a href="#" id="logo" class="logo">
         <img src="img/logo.png" alt="Delicious Logo">
         <h1>Delicious</h1>
-        <p id="slogan">The Best Food Blog on the Web</p>
+        <p>The Best Food Blog on the Web</p>
       </a>
      
-      <ul>
+      <ul class="social-icons">
         <li><a href="#"><img src="img/fb-icon.png" alt="facebook icon"></a></li>
         <li><a href="#"><img src="img/twit-icon.png" alt="twittericon"></a></li>
         <li><a href="#"><img src="img/gp-icon.png" alt="google plus icon"></a></li>
@@ -64,7 +67,7 @@
         <li><input type="checkbox" name="ingredient"> 1 cup honey roasted pecans, roughly chopped</li>
       </ul>
       <hr>
-      <aside>
+      <aside class="author">
         <button>Share Recipe</button>
         <img src="img/van-pic.png" alt="Vanessa Stevenson">
         <h3>Vanessa Stevenson</h3>
@@ -75,8 +78,8 @@
 
   <footer>
     <section>
-      <hr>
-      <p>Delicious &copy; • All Rights Reserved.<br>Proudly published with Ghost</p>
+      <hr class="thin-hr">
+      <p class="credit">Delicious &copy; • All Rights Reserved.<br>Proudly published with Ghost</p>
     </section>
   </footer>
 </body>
